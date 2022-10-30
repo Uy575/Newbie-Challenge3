@@ -1,0 +1,162 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(204, 43%, 93%);
+
+}
+h2{
+    padding-top: 20px;
+    color: hsl(179, 62%, 43%);
+    font-family: 'Karla', sans-serif;
+}
+h3{
+    padding-top: 30px;
+    color: hsl(71, 73%, 54%);
+    font-family: 'Karla', sans-serif;
+}
+
+p{ 
+    padding-top: 10px;
+    color: hsl(218, 22%, 67%);
+    opacity: 0.6;
+    font-family: 'Karla', sans-serif;
+  
+}
+h4{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+    font-family: 'Karla', sans-serif;
+    opacity: 0.9;
+}
+h5{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+    font-family: 'Karla', sans-serif;
+    opacity: 0.9;
+}
+
+.thirdblock > ul li{
+    color: white;
+    opacity: 0.7;
+    padding: 3px;
+    font-family: 'Karla', sans-serif;
+
+
+}
+.secondli{
+    display: flex;
+}
+
+.secondblock > ul li:first-child{
+    color: white;
+    font-size: 1.8rem;
+    padding-bottom: 10px;
+    font-family: 'Karla', sans-serif;
+}
+.secondblock > ul li:last-child{
+    color: white ;
+    opacity: 0.6;
+    margin-left: 10px;
+    margin-top: 7px;
+    font-family: 'Karla', sans-serif;
+}
+span{
+    color: white ;
+    font-family: 'Karla', sans-serif;
+    opacity:0.8;
+}
+.signupbtn{
+     margin-top: 40px;
+     width: 235px;
+     height: 50px;
+     background-color: hsl(71, 73%, 54%);
+     border-radius: 6px;
+     border-color: hsl(71, 73%, 54%);
+     font-family: 'Karla', sans-serif;
+     color: white;
+}
+li{
+    list-style: none;
+}
+
+.firstblock{
+    display: inline-block;
+     border-radius: 10px 10px 0px 0px;
+     width: 600px;
+     height: 200px;
+     padding: 20px;
+     background-color: white;
+     padding-left: 34px;
+
+}
+.secondblock{
+
+    border-radius: 0px 0px 0px 8px;
+    height: 270px;
+    width: 300px;
+    padding: 20px;
+    background-color: hsl(179, 62%, 43%);
+    padding-left: 34px;
+
+}
+.thirdblock{
+  
+    border-radius: 0px 0px 8px 0px;
+    width: 300px;
+    height: 270px;
+    padding: 20px;
+    background-color: hsl(179, 62%, 43%,0.7);
+    padding-left: 34px;
+}
+
+.container{ 
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+ transform: translateX(-50%) translateY(-50%);
+}
+.onlysnt{
+    display: flex;
+}
+
+@media (max-width: 400px){
+
+    .onlysnt{
+        display: inline-block;
+    }
+    .firstblock{
+        width: 300px;
+        height: 300px;
+        margin-top: 150px;
+    }
+    .secondblock{
+       width: 300px;
+       height: 270px;
+       border-radius: 0px;
+    }
+    .thirdblock{
+        width: 300px;
+        height: 270px;
+        margin-bottom: 50px;
+        border-radius: 0px 0px 8px 8px;
+    }
+    p{
+
+        font-size: 0.9rem;
+    }
+    h3{
+        padding-top: 40px;
+    }
+
+}
